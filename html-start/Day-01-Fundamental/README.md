@@ -111,4 +111,26 @@ sebuah dokumen/file yang berisi struktur HTML untuk membangun satu halaman web
 
 - !DOCTYPE html = memberi tahu browser bahwa dokumen menggunakan HTML modern
 - html = root element dari sebuah dokumen HTML
-- head = 
+- head = berisi metadata dan konfigurasi halaman, contohnya judul halaman, metadata, stylesheet
+- body = konten ulama halaman
+
+## 4. Nesting & Parent-Child Relationship
+### Nesting
+satu html element diletakkan di dalam element lainnya
+```html
+<div>
+    <p>Hello World</p>
+</div>
+```
+- p berada di dalam div
+
+### Parent & Child
+- element luar = parent
+- element dalam = child
+- parent tidak harus hanya memiliki satu child (dapat memiliki banyak child)
+
+### istilah cepetnya
+- parent = elemen langsung di atas
+- child = elemen langsung di bawah
+- ancestor = semua elemen di atasnya
+- descendant = semua elemen di bawahnya
